@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="644.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Signup">
+   <children>
+      <Label alignment="CENTER" layoutX="1.0" layoutY="30.0" prefHeight="23.0" prefWidth="600.0" style="-fx-background-color: #000000;" text="Personal details" textFill="#f0eded">
+         <font>
+            <Font name="Century Gothic" size="18.0" />
+         </font></Label>
+      <Label layoutX="34.0" layoutY="93.0" text="First Name">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField layoutX="102.0" layoutY="89.0" prefHeight="26.0" prefWidth="458.0" />
+      <Label layoutX="35.0" layoutY="138.0" text="Last Name">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField layoutX="102.0" layoutY="134.0" prefHeight="26.0" prefWidth="458.0" />
+      <Label layoutX="35.0" layoutY="184.0" text="Age">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="310.0" layoutY="184.0" text="Gender">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <CheckBox layoutX="363.0" layoutY="184.0" mnemonicParsing="false" text="Male" />
+      <CheckBox layoutX="427.0" layoutY="184.0" mnemonicParsing="false" text="Female" />
+      <CheckBox layoutX="497.0" layoutY="184.0" mnemonicParsing="false" text="Other" />
+      <TextField layoutX="102.0" layoutY="180.0" />
+      <Label layoutX="33.0" layoutY="226.0" text="Birthday">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="102.0" layoutY="222.0" />
+      <TextField layoutX="364.0" layoutY="209.0" prefHeight="26.0" prefWidth="196.0" />
+      <Label layoutX="415.0" layoutY="239.0" text="(specify if other)">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="272.0" text="Civil status">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ChoiceBox layoutX="101.0" layoutY="268.0" prefWidth="150.0" />
+      <Label layoutX="310.0" layoutY="272.0" text="Country">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField layoutX="364.0" layoutY="268.0" prefHeight="26.0" prefWidth="196.0" />
+      <Label alignment="CENTER" layoutX="1.0" layoutY="325.0" prefHeight="23.0" prefWidth="600.0" style="-fx-background-color: #000000;" text="Contact details" textFill="#f2ecec">
+         <font>
+            <Font name="Century Gothic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="388.0" text="Email">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField layoutX="102.0" layoutY="384.0" prefHeight="26.0" prefWidth="458.0" />
+      <Label layoutX="26.0" layoutY="426.0" text="Mobile">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField layoutX="102.0" layoutY="422.0" prefHeight="26.0" prefWidth="174.0" />
+      <Label alignment="CENTER" layoutX="1.0" layoutY="472.0" prefHeight="23.0" prefWidth="600.0" style="-fx-background-color: #000000;" text="Login details" textFill="#f0ecec">
+         <font>
+            <Font name="Century Gothic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="530.0" text="Username">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField layoutX="137.0" layoutY="525.0" prefHeight="26.0" prefWidth="163.0" />
+      <Label layoutX="30.0" layoutY="563.0" text="Password">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="601.0" text="Confirm password">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <PasswordField layoutX="137.0" layoutY="559.0" prefHeight="26.0" prefWidth="163.0" />
+      <PasswordField layoutX="137.0" layoutY="597.0" prefHeight="26.0" prefWidth="163.0" />
+      <Button layoutX="417.0" layoutY="521.0" mnemonicParsing="false" text="SUBMIT">
+         <font>
+            <Font name="Californian FB" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="420.0" layoutY="585.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="90.0" text="Clear">
+         <font>
+            <Font name="Californian FB" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
